@@ -7,7 +7,7 @@
     pip install -r requirements.txt
 ```
 
-> Navigate to the [server directory](/Tracking_Blockchain_Server/) now:
+> Navigate to the [server directory](./Tracking_Blockchain_Server/) now:
 ```
     cd Tracking_Blockchain_Server
 ```
