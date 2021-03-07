@@ -6,9 +6,9 @@
 
 
 // Enter Your WiFi name
-const char* ssid = "Robocon 2021";
+const char* ssid = "***********";
 // Enter the WiFi Password
-const char* password = "          -_-";
+const char* password = "************";
 
 // Enter The checkpoint Number as string
 const String checkpoint_no = "1";
@@ -73,10 +73,10 @@ void loop() {
 
 
 void send_update(char baggage_id[]){
-  HTTPClient http;
+      HTTPClient http;
 
-//      String serverPath = serverName + "?temperature=24.37";
       String serverPath = serverName + baggage_id +"/" +checkpoint_no;
+
       // Your Domain name with URL path or IP address with path
       http.begin(serverPath.c_str());
 

@@ -2,8 +2,8 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 
-const char* ssid = "Robocon 2021";
-const char* password = "          -_-";
+const char* ssid = "******";
+const char* password = "*********";
 
 //Your Domain name with URL path or IP address with path
 String serverName = "http://192.168.0.100:5000/api/1542987/1";
